@@ -1,14 +1,14 @@
 import { Matriz } from "./classes/Matriz";
 
-const matriz1 = new Matriz(2, 3, [
-    [1, 2, 3],
-    [4, 5, 6]
+const matriz1 = new Matriz(3, 2, [
+    [2, 1],
+    [1, 2],
+    [3, 1]
 ]);
 
-const matriz2 = new Matriz(3, 2, [
-    [7, 8],
-    [9, 10],
-    [11, 12]
+const matriz2 = new Matriz(2, 3, [
+    [1, 2, 1],
+    [1, 2, 1],
 ]);
 
 console.log("Matriz 1:");
